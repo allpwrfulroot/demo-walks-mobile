@@ -20,6 +20,10 @@ Yes, it's ugly, sorry.
 
 Next steps: Work with someone with an actual eye for UI
 
+### Map view
+
+It takes the starting point of a walk with a hard-coded delta. With a little more work, you could find min/max lat/lon for walks and have more reliably-displayed walking paths.
+
 ### Data
 
 Pretty sure that the data isn't super clean, etc. Lots of variance. The 40000 ms gap between walks is my best guess at properly parsing the data. How / when / where to clean "session" data gained from the devices? How to optimize for fall detection? Open questions.
